@@ -15,8 +15,8 @@ public class Block extends Rectangle {
 
 	public void draw(Graphics g)
 	{
-		//System.out.println(groundID);
-		
+		System.out.println(groundID);
+		//print out the groundID
 
 			//System.out.println(groundID);
 			g.drawImage(Screen.tileset_ground[groundID],x,y,width,height,null);//
